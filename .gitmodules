@@ -1,0 +1,15 @@
+[submodule "external/vim-pathogen"]
+	path = external/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
+[submodule "external/vim-nerdtree"]
+	path = external/vim-nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "external/vim-bookmarks"]
+	path = external/vim-bookmarks
+	url = https://github.com/MattesGroeger/vim-bookmarks.git
+[submodule "external/vim-ack"]
+	path = external/vim-ack
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "external/vim-bad-whitespace"]
+	path = external/vim-bad-whitespace
+	url = https://github.com/bitc/vim-bad-whitespace.git

@@ -1,0 +1,14 @@
+se ru nohls
+se modeline
+se ts=4 sw=4 sts=4 et
+se so=5
+se bg=dark mouse=
+syn on
+execute pathogen#infect()
+
+nmap <NL> <Plug>BookmarkToggle
+nmap <C-Up> <Plug>BookmarkPrev
+nmap <C-Down> <Plug>BookmarkNext
+let g:bookmark_highlight_lines = 1
+
+let NERDTreeIgnore = [ '\.o$', '\.d$' ]
