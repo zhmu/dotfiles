@@ -13,3 +13,6 @@
 [submodule "external/vim-bad-whitespace"]
 	path = external/vim-bad-whitespace
 	url = https://github.com/bitc/vim-bad-whitespace.git
+[submodule "external/vim-gitgutter"]
+	path = external/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git

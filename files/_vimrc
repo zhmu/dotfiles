@@ -11,4 +11,10 @@ nmap <C-Up> <Plug>BookmarkPrev
 nmap <C-Down> <Plug>BookmarkNext
 let g:bookmark_highlight_lines = 1
 
+let g:gitgutter_override_sign_column_highlight = 0
+highlight clear SignColumn
+highlight GitGutterAdd ctermfg=2
+highlight GitGutterChange ctermfg=3
+highlight GitGutterDelete ctermfg=1
+
 let NERDTreeIgnore = [ '\.o$', '\.d$' ]

@@ -20,3 +20,4 @@ ln -sf $S/external/vim-nerdtree $D/.vim/bundle/nerdtree
 ln -sf $S/external/vim-bookmarks $D/.vim/bundle/bookmarks
 ln -sf $S/external/vim-ack $D/.vim/bundle/ack
 ln -sf $S/external/vim-bad-whitespace $D/.vim/bundle/bad-whitespace
+ln -sf $S/external/vim-gitgutter $D/.vim/bundle/vim-gitgutter
