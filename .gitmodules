@@ -16,3 +16,6 @@
 [submodule "external/vim-gitgutter"]
 	path = external/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "external/ydiff"]
+	path = external/ydiff
+	url = https://github.com/ymattw/ydiff.git

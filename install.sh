@@ -5,6 +5,7 @@ D=~
 # git extra commands
 mkdir -p $D/bin
 ln -sf $S/scripts/git-clang-format $D/bin
+ln -sf $S/external/ydiff/ydiff $D/bin
 
 # dotfiles
 ln -sf $S/files/_vimrc $D/.vimrc
