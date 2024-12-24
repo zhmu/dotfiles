@@ -3,8 +3,9 @@ se modeline
 se ts=4 sw=4 sts=4 et
 se so=5
 se bg=dark mouse=
-syn on
 execute pathogen#infect()
+syn on
+" filetype plugin indent on
 
 nmap <NL> <Plug>BookmarkToggle
 nmap <C-Up> <Plug>BookmarkPrev
@@ -18,3 +19,6 @@ highlight GitGutterChange ctermfg=3
 highlight GitGutterDelete ctermfg=1
 
 let NERDTreeIgnore = [ '\.o$', '\.d$' ]
+
+" disable autoindent if F8 is hit
+nmap <F8> :setl noai nocin nosi inde=<CR>
