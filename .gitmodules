@@ -25,3 +25,6 @@
 [submodule "external/nvim-plug"]
 	path = external/nvim-plug
 	url = https://github.com/junegunn/vim-plug
+[submodule "external/alacritty-themes"]
+	path = external/alacritty-themes
+	url = https://github.com/alacritty/alacritty-theme

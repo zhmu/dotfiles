@@ -12,6 +12,11 @@ ln -sf $S/files/_vimrc $D/.vimrc
 ln -sf $S/files/_screenrc $D/.screenrc
 ln -sf $S/files/_tmux.conf $D/.tmux.conf
 
+# alacritty
+mkdir -p ~/.config/alacritty
+ln -sf $S/external/alacritty-themes ~/.config/alacritty/themes
+ln -sf $S/files/alacritty.toml ~/.config/alacritty
+
 # vim pathogen package manager
 mkdir -p $D/.vim/autoload
 ln -sf $S/external/vim-pathogen/autoload/pathogen.vim $D/.vim/autoload
