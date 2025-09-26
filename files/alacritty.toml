@@ -1,4 +1,4 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/xterm.toml"
+    "~/.config/alacritty/themes/themes/hyper.toml"
 ]
