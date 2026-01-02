@@ -1,4 +1,7 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/hyper.toml"
+    "~/.config/alacritty/themes/themes/iceberg.toml"
 ]
+
+[font]
+normal = { family = "JetBrainsMono", style = "Regular" }

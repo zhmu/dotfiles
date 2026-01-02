@@ -41,3 +41,12 @@ mkdir -p $D/.config/nvim
 ln -sf $S/neovim/init.vim $D/.config/nvim
 mkdir -p $D/.config/nvim/lua
 ln -sf $S/neovim/init.lua $D/.config/nvim/lua
+
+FONT_PATH=~/.local/share/fonts
+if [ ! -f $FONT_PATH/fonts/ttf/JetBrainsMono-Regular.ttf ]; then
+    echo "(jetbrains) Installing monospace font"
+    wget -O /tmp/JetBrainsMonoFont.zip https://download.jetbrains.com/fonts/JetBrainsMono-2.304.zip
+    mkdir -p $FONT_PATH
+    (cd $FONT_PATH && unzip /tmp/JetBrainsMonoFont.zip)
+    fc-cache -f -v
+fi
